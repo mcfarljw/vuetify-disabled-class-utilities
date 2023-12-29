@@ -1,4 +1,13 @@
 <template>
+  <v-navigation-drawer
+    :border="0"
+    location="top"
+    :permanent="true"
+    :width="100"
+  >
+    <div>Navigation drawer with <code>:border="0"</code></div>
+  </v-navigation-drawer>
+
   <v-container>
     <v-row>
       <v-col>
@@ -8,6 +17,8 @@
           <v-tab value="three">Item Three</v-tab>
         </v-tabs>
       </v-col>
+    </v-row>
+    <v-row>
       <v-col>
         <v-btn>Button</v-btn>
       </v-col>
